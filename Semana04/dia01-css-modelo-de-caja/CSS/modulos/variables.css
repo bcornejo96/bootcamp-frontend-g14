@@ -1,0 +1,30 @@
+:root, html[data-theme='dark']{
+    color-scheme: ligth dark;
+
+
+    /* fonts */
+    --font-primary: 'Raleway', sans-serif;
+    --font-secundary: 'Open sans', sans-serif;
+    --font-size: 14px;
+    --font-weight-regular: 400;
+    --font-weigth-bold: 700;
+
+    /* colors */
+    --primary-dark-blue-intro: hsl(217, 28%, 15%);
+    --primary-dark-blue-main: hsl(218, 28%, 13%);
+    --primary-dark-blue-footer: hsl(216, 53%, 9%);
+    --primary-dark-blue-testimonials: hsl(229, 30%, 18%);
+    --primary-cyan-gradient-1: hsl(176, 68%, 64%);
+    --primary-blue-gradient-2: hsl(198, 60%, 50%);
+    --accent-ligth-red: hsl(0, 100%, 63%);
+    
+
+    --neutral-white: hsl(0,0%,100%);
+
+   
+}
+
+
+html[data-theme='ligth'] {
+    --primary-dark-blue-intro: hsl(217, 28%, 15%);
+}

@@ -1,0 +1,44 @@
+.hero{
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    text-align: center;
+    background: var(--primary-dark-blue-intro) url(../../images/bg-curvy-desktop.svg) no-repeat bottom;
+    background-size: contain;
+    padding-top: 3rem;  
+    padding-bottom: 12rem;                
+}
+.hero_title{
+    width: min(100% - 3rem, 720px);
+    font-family: var(--font-primary);
+    font-weight: var(--font-weigth-bold);
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+.hero_text{
+    width: min(100% - 3rem, 720px);
+    font-family: var(--font-secundary);
+    
+    padding: 0 7rem;
+    line-height: 1.5;
+}
+ 
+.hero_button{
+    font-family: var(--font-secundary);
+    font-weight: var(--font-weigth-bold);
+    border: none;
+    border-radius: 7rem;
+    padding: 1rem, 1.5rem;
+    line-height: 1.5;
+    min-width: 220px;
+    color: var(--neutral-white);
+    background: linear-gradient(9deg, 
+    var(--primary-cyan-gradient-1) 0%,
+    var(--primary-blue-gradient-2) 35%
+    )
+    ;
+}
