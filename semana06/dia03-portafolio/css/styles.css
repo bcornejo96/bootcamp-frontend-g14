@@ -29,50 +29,81 @@ a {
   display: flex;
   justify-content: space-between;
 }
-
-.header_logo {
+.header .header_logo {
   color: #ffb742;
   font-size: 2rem;
   font-weight: 700;
 }
-
-.header_menu ul {
+.header .header_menu ul {
   list-style: none;
   display: flex;
   gap: 1.5rem;
   padding: 10px;
   margin: 10px;
 }
-
-.header_menu a {
+.header .header_menu a {
   font-size: 1.125rem;
   font-weight: 700;
   text-transform: capitalize;
   transition: color ease 0.3s;
 }
-
-.header_menu--active,
-.header_menu a:hover {
+.header .header_menu--active,
+.header .header_menu a:hover {
   color: #ffb742;
   border-bottom: 3px solid #ffb742;
 }
-
-.header_actions {
+.header .header_actions {
   display: flex;
   gap: 1.5rem;
 }
-
-.header_action {
+.header .header_action {
   width: 2.5rem;
   height: 2.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
-.header_action:hover {
+.header .header_action:hover {
   border-radius: 100%;
   background-color: #393646;
+}
+.header .header_action--dark-selected {
+  border: none;
+  border-radius: 100%;
+  background-color: #6d5d6e;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.5rem;
+  padding: 4rem;
+}
+.hero .hero--bg {
+  background: #4f4557 url(../../images/bg.svg) no-repeat bottom;
+  background-size: contains;
+}
+.hero .hero_gretting {
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.hero .hero_gretting span {
+  color: #ffb742;
+  text-decoration: underline;
+}
+.hero hero_title {
+  font-size: 3rem;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.hero .hero_description {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.hero .hero_photo {
+  border-radius: 100%;
 }
 
 /*# sourceMappingURL=styles.css.map */

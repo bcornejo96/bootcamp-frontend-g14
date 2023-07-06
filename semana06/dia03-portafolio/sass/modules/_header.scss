@@ -3,7 +3,7 @@
 
     display: flex;
     justify-content: space-between;
-}
+
 
 .header_logo{
     color: $primary-color-gold;
@@ -55,8 +55,14 @@
 
 }
 
+.header_action--dark-selected {
+    border: none;
+    border-radius: 100%;
+    background-color: $primary_color_blue3;
+}
 
 
+}
 
 
 
