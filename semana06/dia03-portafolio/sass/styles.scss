@@ -1,32 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 
-// font
-
-$font-primary: 'Poppins', sans-serif;
-$font-size: 16px;
-$font-weight-regular: 400;
-$font-weight-semibold: 600;
-$font-weight-bold: 700;
-
-// color 
-
-$primary-dark-gold: #ffb742;
-$primary-dark-blue1: #393646;
-$primary-dark-blue2: #4f4557;
-$primary-dark-white: #ffffff;
-
-* {
-   box-sizing: border-box; 
-   margin: 0;
-
-}
-
-
-html{
-    font-size: $font-size;
-}
-
-body{
-    background-color: $primary-dark-blue2;
-    color: $primary-dark-white;
-}
+@import 'modules/_variables.scss';
+@import 'modules/_base.scss';
+@import 'modules/_utils.scss';
+@import 'modules/_header.scss';

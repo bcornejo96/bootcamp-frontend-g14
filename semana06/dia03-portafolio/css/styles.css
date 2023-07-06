@@ -11,6 +11,68 @@ html {
 body {
   background-color: #4f4557;
   color: #ffffff;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.wrapper {
+  width: min(100% - 3rem, 1800px);
+  margin: 0 auto;
+}
+
+.header {
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header_logo {
+  color: #ffb742;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.header_menu ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  padding: 10px;
+  margin: 10px;
+}
+
+.header_menu a {
+  font-size: 1.125rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  transition: color ease 0.3s;
+}
+
+.header_menu--active,
+.header_menu a:hover {
+  color: #ffb742;
+  border-bottom: 3px solid #ffb742;
+}
+
+.header_actions {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.header_action {
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header_action:hover {
+  border-radius: 100%;
+  background-color: #393646;
 }
 
 /*# sourceMappingURL=styles.css.map */

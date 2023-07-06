@@ -1,0 +1,62 @@
+.header{
+    border: 1px solid red;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_logo{
+    color: $primary-color-gold;
+    font-size: 2rem;
+    font-weight: $font-weight-bold;
+}
+
+
+.header_menu ul {
+    list-style: none;
+
+    display: flex;
+    gap: 1.5rem;
+    padding: 10px;
+    margin: 10px;
+}
+
+.header_menu a {
+    font-size: 1.125rem;
+    font-weight: $font-weight-bold;
+    text-transform: capitalize;
+
+    transition: color ease .3s;
+
+}
+
+.header_menu--active,
+.header_menu a:hover{
+    color: $primary-color-gold;
+    border-bottom: 3px solid $primary-color-gold;
+}
+
+.header_actions {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.header_action {
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_action:hover {
+    border-radius: 100%;
+    background-color: $primary-color-blue1;
+
+}
+
+
+
+
+
+
