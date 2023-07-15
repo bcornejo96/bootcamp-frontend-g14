@@ -34,5 +34,19 @@ taskAdd.addEventListener('click', function(event){
 
     taskList.appendChild(li)
 
+    taskInput.value = ''
+
 })
+
+taskList.addEventListener('click', function(event){
+    console.log(event)
+    const target = event.target
+
+
+
+
+
+
+}
+)
 
